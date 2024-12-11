@@ -1,0 +1,78 @@
+body {
+    font-family: 'Caveat', cursive;
+    height: 100%;
+    margin: 0;
+    background-color: #ffd3e9;
+    background-image: url('fig/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    background-color: rgba(255, 211, 233, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(40, 66, 140, 0.2);
+    padding: 3rem;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.game-logo {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 15px rgba(40, 66, 140, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.game-logo:hover {
+    transform: scale(1.05);
+}
+
+.game-title {
+    color: #28428c;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.game-description {
+    color: #28428c;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.start-btn {
+    background-color: #aa597f;
+    color: #ffd3e9;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #935776;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.creators {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #50525a;
+    opacity: 0.7;
+}
